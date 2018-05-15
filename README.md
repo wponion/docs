@@ -43,3 +43,13 @@ $instance = new WPOnion_Settings(array(
         'extra_css'     => array( 'plugin-css-1' ),	'extra_js'      => array( 'plugin-js-1' ),	'option_name'   => '_wpboilerplate_settings',	'template_path' => false,	'menu'          => array(		'type'       => 'parent',		'title'      => 'WP Onion',		'capability' => 'manage_options',		'icon'       => false, # Or Provide A Actual URL of the icon		'position'   => false, #set to false to auto set via wp		'slug'       => 'wponion',		'submenus'   => true,	),	'theme'         => 'wp',	'plugin_id'     => 'boilerplate',));
 ```
 
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
