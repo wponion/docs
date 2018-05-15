@@ -44,7 +44,7 @@ $instance = new WPOnion_Settings(array(
 ```
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Options" %}
 
 {% endtab %}
 
