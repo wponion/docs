@@ -1,4 +1,4 @@
-# Module : Settings
+# Settings Page
 
 ### Options
 

@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Module : Settings](README.md)
+* [Settings Page](README.md)
 * Settings
 
