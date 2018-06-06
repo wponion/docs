@@ -1,5 +1,6 @@
-### Include In Theme
+# installation
 
+### Include In Theme
 
 * Extract download zip on themename/wponion folder under your theme directory 
 * Add framework include code on your theme themename/functions.php file
@@ -16,8 +17,8 @@
 |   |   ├── functions.php
 |   |   ├── ...
 |   |   ├── ...
-
 ```
+
 > This is not meant replace your main functions.php, only put this code below your codes
 
 ```php
@@ -29,7 +30,6 @@ require_once get_template_directory_uri() .'/wpsf-framework/wpsf-framework.php';
 ​
 // -( or )-
 // require_once get_template_directory_uri() .'/subfolder/wpsf-framework/wpsf-framework.php';
-
 ```
 
 ### Include In plugin
@@ -63,7 +63,7 @@ require_once plugin_dir_path(__FILE__) .'/wponion/wponion-framework.php';
 ### Usage as Standalone Plugin
 
 * Way1 Extract download zip on wp-content/plugins/wponion folder under your plugin directory
-* Way  Upload zip file from wordpess plugins panel -> add new -> upload plugin
+* Way  Upload zip file from wordpess plugins panel -&gt; add new -&gt; upload plugin
 * Active wponion plugin from wordpress plugins panel
 * Yay! Right now you are ready to configure framework, metaboxes, taxonomies, wp customize, shortcoder
 * Take a look for config files from wp-content/plugins/wponion/config folder also you can manage config files from theme directory. see overriding files method.
@@ -96,7 +96,7 @@ After installation, you can modify directly config files from wponion/configfold
 
 ## Override Configure
 
-If you do not want to touch framework files, you can use override method. Create a folder ```php /wponion-override/ ```  on your theme directory and copy any orginal config file here. Also you can use this method for child theme. create same folder on child theme and modify your copies.
+If you do not want to touch framework files, you can use override method. Create a folder `php /wponion-override/` on your theme directory and copy any orginal config file here. Also you can use this method for child theme. create same folder on child theme and modify your copies.
 
 ```php
 .
@@ -109,3 +109,4 @@ If you do not want to touch framework files, you can use override method. Create
 |   |   |   ├── shortcode.config.php
 |   |   |   ├── customize.config.php
 ```
+
