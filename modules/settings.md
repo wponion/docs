@@ -5,6 +5,15 @@
 {% tabs %}
 {% tab title="General" %}
 
+
+| key | value\_type | default\_value | alternative\_values | Description |
+| --- | --- | --- | --- | --- | --- | --- |
+| extra\_css | Array | `array()` | - | this should contain a array list of registered wp style handle refer [wp\_register\_script](https://developer.wordpress.org/reference/functions/wp_register_script/)​ |
+| extra\_js | Array | `array()` | - | this should contain a array of registered wp script handles [wp\_register\_style](https://developer.wordpress.org/reference/functions/wp_register_style/)​ |
+| option\_name | String | `_wponion` | any string | this is the database key which is used to store all the settings related data into **wp\_options** table. use any value based on your needs like `_{plugin_slug}_settings` |
+| plugin\_id | String | **option\_name** | any string | this key is used to run plugin / current instance related **apply\_filters** / **do\_action** to provide developer easy access to hook with our framework. if this value given empty / false then **option\_name** will be used |
+| theme | String | `modern` | any theme slug | Default Available themes \( modern / wp / wp-modern \) |
+| template\_path | String | false | Full Path | Provide a full Path where you have your own custom theme / override theme files |
 {% endtab %}
 
 {% tab title="Second Tab" %}
