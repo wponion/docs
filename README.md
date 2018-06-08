@@ -68,11 +68,5 @@ dddd
 palc
 ```
 {% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
 {% endtabs %}
-
-
 

@@ -1,4 +1,4 @@
-# installation
+# Installation
 
 ### Include In Theme
 
