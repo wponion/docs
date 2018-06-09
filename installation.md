@@ -69,8 +69,7 @@ require_once plugin_dir_path(__FILE__) .'/wponion/wponion-framework.php';
 * Take a look for config files from wp-content/plugins/wponion/config folder also you can manage config files from theme directory. see overriding files method.
 * Read for about configuration
 
-```php
-.
+```text
 ├── wp-content
 |   ├── plugins
 |   |   ├── akismet
@@ -83,8 +82,7 @@ require_once plugin_dir_path(__FILE__) .'/wponion/wponion-framework.php';
 
 After installation, you can modify directly config files from wponion/configfolder. this is method same for plugin or theme methods.
 
-```php
-.
+```text
 ├── wponion
 |   ├── config
 |   |   ├── framework.config.php
@@ -98,8 +96,7 @@ After installation, you can modify directly config files from wponion/configfold
 
 If you do not want to touch framework files, you can use override method. Create a folder `php /wponion-override/` on your theme directory and copy any orginal config file here. Also you can use this method for child theme. create same folder on child theme and modify your copies.
 
-```php
-.
+```text
 ├── themename
 |   ├── wpsf-framework-override
 |   |   ├── config
