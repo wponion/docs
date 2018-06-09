@@ -1,5 +1,9 @@
 # Welcome
 
+{% hint style="warning" %}
+ Documentation is still **in-progress**. i am constantly working on the documentation. By the way you can click to edit buttons and improve documentation for help me.
+{% endhint %}
+
 This site aims to be a comprehensive guide to WPOnion Framework. We’ll cover topics such as installation, creating custom meta boxes and fields, get meta value and give you some tutorials on using the plugins to speed up your development workflow.
 
 All the documentation are listed on the left menu. You can also use the search box to find the documentation quickly.
