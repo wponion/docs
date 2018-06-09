@@ -6,7 +6,7 @@ Every Modules In this framework requires below arguments too.
 
 | **Option Name** | **Default** |
 | --- | --- | --- |
-| `option_name` | false |
+| <span style="color:red">`option_name`</span> | false |
 | `plugin_id` | false |
 
 ### Admin Modules
