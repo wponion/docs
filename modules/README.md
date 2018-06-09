@@ -1,6 +1,6 @@
 # Modules
 
-### Common Module Arguments
+## Common Module Arguments
 
 Every Modules In this framework requires below arguments too.
 
@@ -8,8 +8,4 @@ Every Modules In this framework requires below arguments too.
 | --- | --- | --- |
 | `option_name` | false |
 | `plugin_id` | false |
-
-### Admin Modules
-
-{% page-ref page="./" %}
 
