@@ -27,4 +27,5 @@
   * [Core Fields](fields/core-fields.md)
 * [Change Log](change-log.md)
 * [License & Credits](license-and-credits.md)
+* [F.A.Q](f.a.q.md)
 
