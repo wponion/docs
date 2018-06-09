@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Welcome](README.md)
 * [Getting Started](getting-started/README.md)
   * [Installation](getting-started/installation.md)
 * [Modules](modules/README.md)

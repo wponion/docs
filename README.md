@@ -1,6 +1,4 @@
-# Introduction
-
-## Welcome
+# Welcome
 
 This site aims to be a comprehensive guide to WPOnion Framework. We’ll cover topics such as installation, creating custom meta boxes and fields, get meta value and give you some tutorials on using the plugins to speed up your development workflow.
 
