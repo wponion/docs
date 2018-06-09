@@ -1,5 +1,3 @@
-# Installation
-
 ## Include In Theme
 
 * Extract download zip on your-theme-name/wponion folder under your theme directory 
