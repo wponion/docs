@@ -1,3 +1,5 @@
+# Installation
+
 ## Include In Theme
 
 * Extract download zip on your-theme-name/wponion folder under your theme directory 
@@ -6,7 +8,7 @@
 * Take a look for config files from your-theme-name/wpsf-framework/config folder
 * Read for about configuration
 
-> #### Folder Structure
+> ### Folder Structure
 
 ```php
 ├── wp-content
@@ -38,7 +40,7 @@ require_once get_template_directory_uri() .'/wpsf-framework/wpsf-framework.php';
 * Take a look for config files from your-plugin/wponion/config folder
 * Read for about configuration
 
-> #### Folder Structure
+> ### Folder Structure
 
 ```text
 ├── wp-content
