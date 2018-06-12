@@ -44,6 +44,7 @@
     * [Time Picker](fields/core-fields/time-picker.md)
     * [Color Palette](fields/core-fields/color-palette.md)
   * [Field Template](fields/field-template.md)
+* [Value API](value-api.md)
 * [Change Log](change-log.md)
 * [F.A.Q](f.a.q.md)
 * [License & Credits](license-and-credits.md)
