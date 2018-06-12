@@ -2,10 +2,10 @@
 
 #### Example code {#example-code}
 
-```text
+```php
 array(  
-  'type' => 'jumbo-content', 
-  'content' => 'Your jumbo content comes here'
+  'type' => 'jumbo_content', 
+  'content' => 'Your jumbo content comes here',
 );
 ```
 
