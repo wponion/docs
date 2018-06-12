@@ -2,7 +2,7 @@
 
 #### Example code {#example-code}
 
-```text
+```php
 array(  
   'type' => 'content',
   'content' => 'Your content comes here'

@@ -5,7 +5,7 @@
 {% tabs %}
 {% tab title="Success" %}
 ```php
-array(    'type'        => 'notice',    'notice-type' => 'success',)
+array(    'type'        => 'notice',    'notice_type' => 'success',)
 ```
 
 ![](../../.gitbook/assets/success%20%286%29.png)
@@ -13,7 +13,7 @@ array(    'type'        => 'notice',    'notice-type' => 'success',)
 
 {% tab title="Info" %}
 ```php
-array(    'type'        => 'notice',    'notice-type' => 'info',);
+array(    'type'        => 'notice',    'notice_type' => 'info',);
 ```
 
 ![](../../.gitbook/assets/info.png)
@@ -21,7 +21,7 @@ array(    'type'        => 'notice',    'notice-type' => 'info',);
 
 {% tab title="Secondary" %}
 ```php
-array(    'type'        => 'notice',    'notice-type' => 'secondary',)
+array(    'type'        => 'notice',    'notice_type' => 'secondary',)
 ```
 
 ![](../../.gitbook/assets/secondary.png)
@@ -31,7 +31,7 @@ array(    'type'        => 'notice',    'notice-type' => 'secondary',)
 ```php
 array(
     'type'        => 'notice',
-    'notice-type' => 'danger',
+    'notice_type' => 'danger',
 )
 ```
 
@@ -42,7 +42,7 @@ array(
 ```php
 array(
     'type'        => 'notice',
-    'notice-type' => 'warning',
+    'notice_type' => 'warning',
 )
 ```
 
@@ -53,7 +53,7 @@ array(
 ```php
 array(
     'type'        => 'notice',
-    'notice-type' => 'light',
+    'notice_type' => 'light',
 )
 ```
 
@@ -64,7 +64,7 @@ array(
 ```php
 array(
     'type'        => 'notice',
-    'notice-type' => 'secondary',
+    'notice_type' => 'dark',
 )
 ```
 
