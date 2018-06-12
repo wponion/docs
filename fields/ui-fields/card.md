@@ -14,7 +14,7 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 ### Example Code
 
 {% tabs %}
-{% tab title="Second Tab" %}
+{% tab title="Field Code" %}
 ```php
 array(
     'type'     => 'card',
