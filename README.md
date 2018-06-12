@@ -23,3 +23,19 @@ If you find anything incorrect in the documentation or out-dated, please help us
 
 In case you come across anything along the way that we haven’t covered, or if you know of a tip you think others would find handy, please [file an issue](https://github.com/wponion/docs/issues) and we’ll see about including it in this guide.
 
+
+
+### Simple method
+
+{% tabs %}
+{% tab title="JavaScript" %}
+This text will only appear for JavaScript.
+{% endtab %}
+
+{% tab title="Go" %}
+This text will only appear for Go.
+{% endtab %}
+{% endtabs %}
+
+This will appear for both JavaScript and Go.
+
