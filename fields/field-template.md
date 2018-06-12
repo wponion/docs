@@ -25,17 +25,13 @@ array(
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
 {% endtabs %}
 
 ## Value API
 
 {% hint style="warning" %}
-**Note :** <span style="color:red">Please do use the correct _$instance_ variable</span>.
+**Note :**[ Please do use the correct _$instance_ variable](javascript:void%280%29).
 {% endhint %}
 
-<p style="color:red">**Note :** Please Do use correct instance variable</p>;
+
 
