@@ -4,8 +4,8 @@
 
 ```text
 array(  
-  'type' => 'heading',  
-  'content' => 'Your Heading comes here'
+  'type' => 'subheading',  
+  'content' => 'Your subHeading comes here',
 );
 ```
 
