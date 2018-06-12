@@ -64,5 +64,3 @@ For more information please [Visit Bootstrap Cards](https://getbootstrap.com/doc
 
 ### Output
 
-
-
