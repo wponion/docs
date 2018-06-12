@@ -34,7 +34,7 @@ array(
 ## Value API
 
 {% hint style="warning" %}
-**Note :** Please do use the correct _$instance_ variable.
+**Note :** <span style="color:red">Please do use the correct _$instance_ variable</span>.
 {% endhint %}
 
 **Note :** &lt;span style="color:red"&gt;Please Do use correct instance variable&lt;/span&gt;
