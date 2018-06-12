@@ -1,14 +1,16 @@
 # UI Fields
 
+{% page-ref page="notice.md" %}
+
 {% page-ref page="heading.md" %}
 
-{% page-ref page="./" %}
+{% page-ref page="sub-heading.md" %}
 
-{% page-ref page="./" %}
+{% page-ref page="content.md" %}
 
-{% page-ref page="./" %}
+{% page-ref page="jambo-content.md" %}
 
-{% page-ref page="./" %}
+{% page-ref page="card.md" %}
 
-{% page-ref page="./" %}
+
 
