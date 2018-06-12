@@ -15,20 +15,26 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 ### Example Code & Output
 
 {% tabs %}
-{% tab title="First Tab" %}
-## Input With Masking
-
+{% tab title="Field Array" %}
 ```php
 array(
-   'id'    => 'field_id',
+   'id'    => 'field_id_text',
    'title' => 'Field Title',
    'type'  => 'text',
 );
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Masking Array" %}
+## Input With Masking
 
+```php
+array(
+   'id'    => 'field_id_text',
+   'title' => 'Field Title',
+   'type'  => 'text',
+);
+```
 {% endtab %}
 {% endtabs %}
 
@@ -45,7 +51,7 @@ array(
  * Please Do Replace $instance with the exact module's instance variable
  */
 $wponion_values = $instance->values();
-$field_id_value = $wponion_values->get('{field_id}');
+$field_id_value = $wponion_values->get('{field_id_text}');
 echo $field_id_value->get(); // Returns Fields Value exactly as saved.
 ```
 
