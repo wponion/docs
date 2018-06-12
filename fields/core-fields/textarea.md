@@ -25,7 +25,7 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 array(
     'id'    => 'field_id',
     'title' => 'Field Title',
-    'type'  => 'text',
+    'type'  => 'textarea',
 );
 ```
 {% endtab %}
