@@ -37,5 +37,5 @@ array(
 **Note :** <span style="color:red">Please do use the correct _$instance_ variable</span>.
 {% endhint %}
 
-**Note :** &lt;span style="color:red"&gt;Please Do use correct instance variable&lt;/span&gt;
+**Note :** <span style="color:red">Please Do use correct instance variable</span>;
 
