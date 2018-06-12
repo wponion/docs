@@ -6,18 +6,15 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 
 ## Field Related Arguments
 
-| **Option Name** | **Default** | **Description** |
+| **Option Name**&lt;&gt;//Sample PHP Code |
 | --- | --- |
-|  |  |  |
 
-### Example Output & Code
 
 {% tabs %}
 {% tab title="First Tab" %}
 {% code-tabs %}
 {% code-tabs-item title="text.php" %}
 ```php
-//Sample PHP Code
 array(
 
 );
@@ -32,6 +29,14 @@ array(
 {% hint style="warning" %}
 **Note :** Please do use the correct _$instance_ variable.
 {% endhint %}
+
+### Get Field Value
+
+```php
+$wponion_values = $instance->values();
+$field_id_value = $wponion_values->get('{field_id}');
+echo $field_id_value->get();
+```
 
 
 
