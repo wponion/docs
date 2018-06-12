@@ -33,6 +33,8 @@ array(
 ## Value API
 
 {% hint style="warning" %}
-
+**Note :** _Please Do Replace_ **$instance** _with the exact module's instance variable_
 {% endhint %}
+
+## 
 
