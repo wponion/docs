@@ -1,6 +1,6 @@
 # Heading
 
-#### Example code & Output
+#### Example code
 
 ```php
 array(
@@ -9,5 +9,7 @@ array(
 );
 ```
 
-#### 
+#### Output Image
+
+
 
