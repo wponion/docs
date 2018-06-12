@@ -15,15 +15,21 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 
 {% tabs %}
 {% tab title="First Tab" %}
-{% code-tabs %}
-{% code-tabs-item title="text.php" %}
+#### Input With Masking
+
 ```php
 array(
-
+   'id'    => 'field_id',
+   'title' => 'Field Title',
+   'type'  => 'text',
 );
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+
+![](../.gitbook/assets/wponion-gif-logo.gif)
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
 {% endtab %}
 {% endtabs %}
 
