@@ -31,3 +31,7 @@ array(
 {% endtab %}
 {% endtabs %}
 
+## Value API
+
+**Note :** &lt;span style="color:red"&gt;Please Do use correct instance variable&lt;/span&gt;
+
