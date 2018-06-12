@@ -44,6 +44,22 @@ array(
 );
 ```
 {% endtab %}
+
+{% tab title="Options Array" %}
+#### Available Options Array Keys
+
+```php
+array(
+    'image'           => false,
+    'content'         => false, // Use any 1 Body or content.
+    'body'            => false,
+    'wrap_attributes' => false, // This array will be used for each card wrap div attributes.
+    'wrap_class'      => false, // This values will be used for each card wrap div class.
+);
+```
+
+For more information please [Visit Bootstrap Cards](https://getbootstrap.com/docs/4.1/components/card/).
+{% endtab %}
 {% endtabs %}
 
 ### Output
