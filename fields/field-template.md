@@ -30,7 +30,7 @@ array(
 ## Value API
 
 {% hint style="warning" %}
-**Note :**[ Please do use the correct _$instance_ variable](javascript:void%280%29).
+**Note :** Please do use the correct _$instance_ variable.
 {% endhint %}
 
 
