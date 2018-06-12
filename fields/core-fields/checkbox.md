@@ -13,23 +13,13 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 
 ### Example Code & Output {#example-code-and-output}
 
-{% tabs %}
-{% tab title="First Tab" %}
-## Input With Masking {#input-with-masking}
-
 ```php
 array(
     'id'    => 'field_id',
     'title' => 'Field Title',
-    'type'  => 'text',
+    'type'  => 'checkbox',
 );
 ```
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
 
 ## Value API
 
