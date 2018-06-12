@@ -10,3 +10,15 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 | --- | --- |
 | ​ | ​ | ​ |
 
+### Example Code & Output {#example-code-and-output}
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
