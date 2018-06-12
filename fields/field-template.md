@@ -26,26 +26,6 @@ array(
 ```
 
 ![](../.gitbook/assets/wponion-gif-logo.gif)
-
-## Input With mask2
-
-```php
-array(
-   'id'    => 'field_id',
-   'title' => 'Field Title',
-   'type'  => 'text',
-);
-```
-
-## Input With mask3
-
-```php
-array(
-   'id'    => 'field_id',
-   'title' => 'Field Title',
-   'type'  => 'text',
-);
-```
 {% endtab %}
 
 {% tab title="Second Tab" %}
