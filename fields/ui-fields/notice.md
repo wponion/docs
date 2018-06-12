@@ -28,7 +28,7 @@ array(
 array(
     'type'        => 'notice',
     'notice_type' => 'info',
-    'content'     => 'A simple info alert—check it out!',
+    'content'     => ' Heads up! This alert needs your attention, but it's not super important.',
 );
 ```
 
@@ -56,7 +56,7 @@ array(
 array(
     'type'        => 'notice',
     'notice_type' => 'danger',
-    'content'     => 'A simple danger alert—check it out!',
+    'content'     => ' Oh snap! Change a few things up and try submitting again.',
 );
 ```
 
@@ -70,7 +70,7 @@ array(
 array(
     'type'        => 'notice',
     'notice_type' => 'warning',
-    'content'     => ' A simple warning alert—check it out!',
+    'content'     => ' Warning! Better check yourself, you\'re not looking too good.',
 );
 ```
 
