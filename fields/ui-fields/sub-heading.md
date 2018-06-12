@@ -2,7 +2,7 @@
 
 #### Example code {#example-code}
 
-```text
+```php
 array(  
   'type' => 'subheading',  
   'content' => 'Your subHeading comes here',
