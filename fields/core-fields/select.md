@@ -15,7 +15,7 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 
 ```php
 array(
-    'id'    => 'field_id',
+    'id'    => 'field_id_select',
     'title' => 'Field Title',
     'type'  => 'select',
 );
@@ -34,7 +34,7 @@ array(
  * Please Do Replace $instance with the exact module's instance variable
  */
 $wponion_values = $instance->values();
-$field_id_value = $wponion_values->get('{field_id}');
+$field_id_value = $wponion_values->get('{field_id_select}');
 echo $field_id_value->get(); // Returns Fields Value exactly as saved.
 ```
 
