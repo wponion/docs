@@ -7,9 +7,11 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 ## Field Related Arguments
 
 | **Option Name** | **Default Value** | **Description** |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
+| --- | --- | --- | --- | --- |
+|  name | `null` | name of the field |
+|  inputmask |  `false` |  |
+|  prefix | `false` |  |
+|  surfix | `false` |  |
 
 ### Example Code & Output
 
