@@ -8,28 +8,18 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 
 | **Option Name** | **Default Value** | **Description** |
 | --- | --- | --- |
-|  |  |  |
-|  |  |  |
+|  options | `array()` |  |
+|  multiple |  `false` |  |
 
 ### Example Code & Output {#example-code-and-output}
-
-{% tabs %}
-{% tab title="First Tab" %}
-## Input With Masking {#input-with-masking}
 
 ```php
 array(
     'id'    => 'field_id',
     'title' => 'Field Title',
-    'type'  => 'text',
+    'type'  => 'select',
 );
 ```
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
 
 ## Value API {#value-api}
 
