@@ -15,7 +15,7 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 
 {% tabs %}
 {% tab title="First Tab" %}
-#### Input With Masking
+## Input With Masking
 
 ```php
 array(
@@ -26,6 +26,26 @@ array(
 ```
 
 ![](../.gitbook/assets/wponion-gif-logo.gif)
+
+## Input With mask2
+
+```php
+array(
+   'id'    => 'field_id',
+   'title' => 'Field Title',
+   'type'  => 'text',
+);
+```
+
+## Input With mask3
+
+```php
+array(
+   'id'    => 'field_id',
+   'title' => 'Field Title',
+   'type'  => 'text',
+);
+```
 {% endtab %}
 
 {% tab title="Second Tab" %}
