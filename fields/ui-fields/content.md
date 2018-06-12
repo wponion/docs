@@ -9,5 +9,3 @@ array(
 );
 ```
 
-#### Output Image {#output-image}
-
