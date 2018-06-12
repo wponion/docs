@@ -1,6 +1,6 @@
 # Heading
 
-#### Example code
+#### code
 
 ```php
 array(
@@ -9,7 +9,7 @@ array(
 );
 ```
 
-#### Output Image
+#### Output
 
-
+![](../../.gitbook/assets/heading.jpg)
 
