@@ -44,7 +44,7 @@ $values = $instance->values();
 Get function can be used either to get a field's value or a sub fields instance. below is an example
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Nested Fields Value Example" %}
 ```php
 /**
  * Here we are using $values which is a base instance of value 
@@ -77,10 +77,6 @@ echo $subfield3;
  */
  echo $subfield1->get('second_fieldset.second_fieldset_text');
 ```
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
 {% endtab %}
 {% endtabs %}
 
