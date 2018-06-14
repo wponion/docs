@@ -82,7 +82,26 @@ echo $subfield3;
 
 ### raw\(\)
 
+Using this function will return raw unmodified value of the current field.
+
+```php
+/**
+ * Here we are using $values which is a base instance of value 
+ * which had stored all the fields of the modules and its value.
+ * Here we are using get along with a field ID to get its field value api instance.
+ */
+$subfield1 =$values->get('first_fieldset');
+print_r($subfield1->raw());
+```
+
 ### html\(\)
+
+Using this function you can directly generate HTML Tag with the fields value  
+Supported Arguments
+
+| TAG | Default &lt;p&gt; will be used. |
+| --- | --- |
+| Attributes | Default `null` Provide as a string |
 
 ### active\(\)
 
