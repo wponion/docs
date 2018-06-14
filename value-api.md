@@ -94,7 +94,7 @@ $subfield1 =$values->get('first_fieldset');
 print_r($subfield1->raw());
 ```
 
-### html\(\)
+### html\(\) / \_html\(\)
 
 Using this function you can directly generate HTML Tag with the fields value  
 Supported Arguments
@@ -112,12 +112,16 @@ Supported Arguments
  echo $subfield1->get('second_fieldset.second_fieldset_text')->html('h1');
  
  /**
- * Output Value into H1 Tag with tag attributes
- * @output <h1 id="exampleID">{field_value}</h1>
- * {field_value} will be replaced with actual field value
- */
+  * Output Value into H1 Tag with tag attributes
+  * @output <h1 id="exampleID">{field_value}</h1>
+  * {field_value} will be replaced with actual field value
+  */
  echo $subfield1->get('second_fieldset.second_fieldset_text')->html('h1','id="exampleID"');
 ```
 
+you can also use **\_html\(\)** to directly echo the field value instead of using `html()`
+
 ### active\(\)
+
+
 
