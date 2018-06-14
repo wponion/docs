@@ -70,6 +70,12 @@ print_r($subfield2);
  */
 $subfield3 = $subfield2->get('second_fieldset_text');
 echo $subfield3;
+
+/**
+ * You can also use below option to get 2nd level text field value
+ * here it will return the value of $subfeild3
+ */
+ echo $subfield1->get('second_fieldset.second_fieldset_text');
 ```
 {% endtab %}
 
