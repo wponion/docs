@@ -15,6 +15,7 @@
   * [Shortcode Generator](modules/shortcode-generator.md)
   * [Gutenberg](modules/gutenberg.md)
   * [Visual Composer](modules/visual-composer.md)
+  * [Dashboard Widgets](modules/dashboard-widgets.md)
 * [Fields](fields/README.md)
   * [UI Fields](fields/ui-fields/README.md)
     * [Notice](fields/ui-fields/notice.md)
