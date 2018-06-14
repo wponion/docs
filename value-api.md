@@ -6,5 +6,19 @@ description: >-
 
 # Value API
 
+## Supported Modules
 
+* Settings
+* Taxonomy
+* Metabox
+* WC Metabox
+* User Profile
+* Customizer
+* Widgets
+* Gutenberg
+* Visual Composer
+
+### _Settings / Customizer_ Module's Value
+
+Here we will be using **$instance** variable in which a module's class instance will be stored.
 
