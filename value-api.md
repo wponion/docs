@@ -103,5 +103,21 @@ Supported Arguments
 | --- | --- |
 | Attributes | Default `null` Provide as a string |
 
+```php
+/**
+ * Output Value into H1 Tag
+ * @output <h1>{field_value}</h1>
+ * {field_value} will be replaced with actual field value
+ */
+ echo $subfield1->get('second_fieldset.second_fieldset_text')->html('h1');
+ 
+ /**
+ * Output Value into H1 Tag with tag attributes
+ * @output <h1 id="exampleID">{field_value}</h1>
+ * {field_value} will be replaced with actual field value
+ */
+ echo $subfield1->get('second_fieldset.second_fieldset_text')->html('h1','id="exampleID"');
+```
+
 ### active\(\)
 
