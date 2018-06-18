@@ -40,45 +40,45 @@ body {
 
 ## Output Arguments
 
-#### **`element`**
+#### **element**
 
 `string|array` Defines a CSS element in your document that you want to affect. If you want to affect multiple elements, format them as an array. Example: `'element' => array( 'h1', 'h2', 'h3' )`.
 
-#### **`property`**
+#### **property**
 
 `string` Use any valid CSS property \(`font-weight`, `padding-right`, `background-color` etc\).
 
-#### **`prefix`**
+#### **prefix**
 
 `string` The value entered in the `prefix` argument will be used before the value.
 
-#### **`units`**
+#### **units**
 
 `string` The value entered in the `units` argument will be used after tha value \(but before the `suffix` argument\).
 
-#### **`suffix`**
+#### **suffix**
 
 `string` The value entered here will be appended to the value of the field - and after the `suffix`.
 
 Example: \` !important\`.
 
-#### **`media_query`**
+#### **media\_query**
 
 `string` Allows you to define a custom CSS media query for this output.
 
 Example: `@media (max-width: 600px)`.
 
-#### **`exclude`**
+#### **exclude**
 
 array Define an array of values that will be excluded. If for example don’t want to output any CSS if the value of the control equals 14 OR 17, then you can use `'exclude' => array( '14', '17' ),`.
 
-#### **`value_pattern`**
+#### **value\_pattern**
 
 string Define a value pattern you want to use. you can use this to calculate complex CSS values, and use the dollar sign \( `$` \) as a placeholder for the value.
 
 Example: `'value_pattern' => 'calc(100% - $em)'` or `'value_pattern' => '10px 0 0 $'` or `'value_pattern' => '10px 0 0 $, -10px 0 0 $'`
 
-#### `pattern_replace` {#pattern_replace}
+#### pattern\_replace {#pattern_replace}
 
 `array`
 
@@ -96,7 +96,7 @@ The values we’ll need are `#1e5799` \(the top color\), `14%` \(the top positio
 
 The `output` argument for the top-color control would look like this:
 
-```css
+```php
 'output'    => array(
 	array(
 		'element'         => 'button',

@@ -36,7 +36,7 @@ Kirki::add_field( 'kirki_demo', array(
 
  If you use `postMessage` in the `transport` argument then you can write your own script. For example to achieve the same result as with the above example, we would have this:
 
-#### **PHP**
+## **PHP**
 
 ```php
 Kirki::add_field( 'kirki_demo', array(
@@ -50,7 +50,7 @@ Kirki::add_field( 'kirki_demo', array(
 ) );
 ```
 
-#### JS
+## JS
 
 ```javascript
 wp.customize( 'color_setting_hex', function( value ) {
