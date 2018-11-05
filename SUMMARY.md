@@ -4,6 +4,7 @@
 * [Installation](installation.md)
 * [Modules](modules/README.md)
   * [Settings](modules/settings.md)
+  * [Admin Page](modules/admin-page.md)
   * [Help Tabs](modules/help-tabs.md)
   * [Quick / Bulk Edit](modules/quick-bulk-edit.md)
   * [Customizer](modules/customizer/README.md)

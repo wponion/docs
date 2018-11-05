@@ -28,6 +28,8 @@
 
 {% page-ref page="dashboard-widgets.md" %}
 
+{% page-ref page="dashboard-widgets.md" %}
+
 ## Common Module Arguments
 
 Every Modules In this framework requires below arguments too.
