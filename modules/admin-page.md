@@ -152,5 +152,61 @@ wponion_admin_page( array(
 {% endtab %}
 {% endtabs %}
 
-## 
+## On Load Hook
+
+### Single Callback
+
+{% code-tabs %}
+{% code-tabs-item title="wponion-admin-page-callback.php" %}
+```php
+wponion_admin_page( array(
+	'submenu'    => 'dashboard',
+	'menu_title' => __( 'WPOnion Demo' ),
+	'page_title' => __( 'WPOnion Admin Page Module' ),
+	'menu_slug'  => 'wponion-demo',
+	'on_load'    => 'wponion_page_on_load',
+) );
+
+function wponion_page_on_load() {
+	// This function is called when WPOnion Demo page is loaded.
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+### Multiple Callback
+
+{% code-tabs %}
+{% code-tabs-item title="wponion-callback.php" %}
+```php
+class WPOnion_Demo_Page {
+	public static function on_load_callback() {
+		// This function is called when WPOnion Demo page is loaded.
+	}
+}
+
+add_action( 'on_load_callback_hook', 'on_load_callback_function' );
+
+function on_load_callback_function() {
+	// This function is called when WPOnion Demo page is loaded.
+}
+
+wponion_admin_page( array(
+	'submenu'    => 'dashboard',
+	'menu_title' => __( 'WPOnion Demo' ),
+	'page_title' => __( 'WPOnion Admin Page Module' ),
+	'menu_slug'  => 'wponion-demo',
+	'on_load'    => array(
+		'on_load_callback_function',
+		'on_load_callback_hook',
+		array( 'WPOnion_Demo_Page', 'on_load_callback' ),
+		function () {
+			// This function is called when WPOnion Demo page is loaded.
+		},
+	),
+) );
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
