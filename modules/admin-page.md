@@ -125,8 +125,30 @@ wponion_admin_page( array(
 ![](../.gitbook/assets/1541383988-162.jpg)
 {% endtab %}
 
-{% tab title="Sub Menu" %}
+{% tab title="Dashboard Submenu" %}
+### Code
 
+{% code-tabs %}
+{% code-tabs-item title="wponion-dashboard-menu.php" %}
+```php
+function wponion_render_demo_page() {
+	echo 'This is a demo page';
+}
+
+wponion_admin_page( array(
+    'submenu'    => 'dashboard',
+    'menu_title' => __( 'WPOnion Demo' ),
+    'page_title' => __( 'WPOnion Admin Page Module' ),
+    'menu_slug'  => 'wponion-demo',
+    'render'     => 'wponion_render_demo_page',
+) );
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+### Output
+
+![](../.gitbook/assets/1541384688-137.jpg)
 {% endtab %}
 {% endtabs %}
 
