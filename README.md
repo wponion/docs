@@ -5,12 +5,11 @@ This site aims to be a comprehensive guide to WPOnion Framework. We’ll cover t
 All the documentation are listed on the left menu. You can also use the search box to find the documentation quickly.
 
 {% hint style="warning" %}
-Documentation is still **in-progress**. I'm constantly working on the documentation.   
+Documentation is still **in-progress**. I'm constantly working on the documentation.  
 By the way you can click to edit buttons and help me in improving documentation.
 {% endhint %}
 
 Because a good documentation helps everyone who uses **wponion-framework** and eases getting started with it. It's also useful for wider adoption of wponion framework. Many developers will just skip softwares that have no extensive documentations or that doesn't seem to provide quick solutions for their problems.
-{% endhint %}
 
 ## So, What is WPOnion exactly?
 

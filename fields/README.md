@@ -3,7 +3,7 @@
 ## Common Field Arguments
 
 | **Option** | **Default** | **Description** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- |
 | **id** | `false` | Unique Database ID For Each And Every Field |
 | **type** | `false` | Type of the field |
 | **title** | `false` | Title For Each Field |

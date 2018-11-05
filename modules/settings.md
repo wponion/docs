@@ -1,13 +1,13 @@
 # Settings
 
-## Options {#options}
+## Options <a id="options"></a>
 
 {% tabs %}
 {% tab title="General" %}
 
 
 | **Key** | **Value** | **Default** | **Alternative** | **Description** |
-| --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | extra\_css | Array | `array()` | - | this should contain a array list of registered wp style handle refer [wp\_register\_script](https://developer.wordpress.org/reference/functions/wp_register_script/)​ |
 | extra\_js | Array | `array()` | - | this should contain a array of registered wp script handles [wp\_register\_style](https://developer.wordpress.org/reference/functions/wp_register_style/)​ |
 | option\_name | String | `_wponion` | any string | this is the database key which is used to store all the settings related data into **wp\_options** table. use any value based on your needs like `_{plugin_slug}_settings` |
@@ -29,7 +29,7 @@
 8. parent / false
 
 | **key** | **Value** | **Default** | **Alternative** | **Description** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | type | string | theme | Refer Below List of options | ​ |
 | title | string | WPOnion | Any String | Title of For the menu |
 | slug | string | wponion | Any String | Url slug for the menu |

@@ -1,9 +1,3 @@
----
-description: >-
-  Value API is a builtin class which helps you to get the stored value easily.
-  just by calling few functions. instead of checking into an array.
----
-
 # Value API
 
 ## Supported Modules
@@ -100,7 +94,7 @@ Using this function you can directly generate HTML Tag with the fields value
 Supported Arguments
 
 | TAG | Default &lt;p&gt; will be used. |
-| --- | --- |
+| :--- | :--- |
 | Attributes | Default `null` Provide as a string |
 
 ```php

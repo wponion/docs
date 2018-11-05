@@ -25,7 +25,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT.
 ## Credits
 
 |  Library |  Author |  License |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- |
 |  [animate.css](https://daneden.github.io/animate.css/) | Daniel Eden | [MIT](https://github.com/daneden/animate.css/blob/master/LICENSE) |
 | [bootstrap](https://github.com/twbs/bootstrap) |  Twitter |  [MIT](https://getbootstrap.com/docs/4.1/about/license/) |
 |  [bootstrap maxlength](https://github.com/mimo84/bootstrap-maxlength) |  Maurizio |  [MIT](https://github.com/mimo84/bootstrap-maxlength/blob/master/LICENSE) |

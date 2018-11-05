@@ -1,6 +1,6 @@
 # Jambo Content
 
-#### Code {#example-code}
+#### Code <a id="example-code"></a>
 
 ```php
 array(  
@@ -9,7 +9,7 @@ array(
 );
 ```
 
-#### Output {#output-image}
+#### Output <a id="output-image"></a>
 
 ![](../../.gitbook/assets/jumbo-content.jpg)
 

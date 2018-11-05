@@ -7,7 +7,7 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 ## Field Related Arguments
 
 | **Option Name** | **Default Value** | **Description** |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **options** | `false` | List of items as array to render. |
 | **card\_col** | `col` | Use any bootstrap class. |
 

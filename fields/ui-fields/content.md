@@ -1,6 +1,6 @@
 # Content
 
-#### Example code {#example-code}
+#### Example code <a id="example-code"></a>
 
 ```php
 array(  

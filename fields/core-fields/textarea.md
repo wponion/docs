@@ -7,7 +7,7 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 ## Field Related Arguments
 
 | **Option Name** | **Default Value** | **Description** |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- |
 |  rows | `5` |  |
 |  col | `5` |  |
 |  inputmask |  `false` |  |
@@ -28,17 +28,17 @@ array(
 {% endtab %}
 
 {% tab title="Masking Array" %}
-## Input With Masking {#input-with-masking}
+## Input With Masking <a id="input-with-masking"></a>
 {% endtab %}
 {% endtabs %}
 
-## Value API {#value-api}
+## Value API <a id="value-api"></a>
 
 {% hint style="warning" %}
 **Note :** _Please Do Replace_ **$instance** _with the exact module's instance variable_
 {% endhint %}
 
-### Get Field Value {#get-field-value}
+### Get Field Value <a id="get-field-value"></a>
 
 ```php
 /**

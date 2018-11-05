@@ -78,7 +78,7 @@ string Define a value pattern you want to use. you can use this to calculate com
 
 Example: `'value_pattern' => 'calc(100% - $em)'` or `'value_pattern' => '10px 0 0 $'` or `'value_pattern' => '10px 0 0 $, -10px 0 0 $'`
 
-#### pattern\_replace {#pattern_replace}
+#### pattern\_replace <a id="pattern_replace"></a>
 
 `array`
 
