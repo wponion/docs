@@ -98,11 +98,11 @@ for more information please check the demo
 
 ## Demo
 
-### Admin Page
+### Menu & Sub menu's
 
 {% tabs %}
 {% tab title="Main Menu" %}
-### Code
+Below code will create a new main admin page.
 
 {% code-tabs %}
 {% code-tabs-item title="wponion-admin-page.php" %}
@@ -120,14 +120,70 @@ wponion_admin_page( array(
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-### Output
-
 ![](../.gitbook/assets/1541383988-162.jpg)
 {% endtab %}
 
-{% tab title="Dashboard Submenu" %}
-### Code
+{% tab title="Main Menu & Sub menu" %}
+{% code-tabs %}
+{% code-tabs-item title="wponion-main-menu-sub-menu.php" %}
+```php
+function wponion_render_demo_page() {
+	echo 'This is a demo page';
+}
 
+$parent = wponion_admin_page( array(
+	'submenu'    => array(
+		'menu_title' => __( 'Submenu 1' ),
+		'page_title' => __( 'Submenu 1' ),
+		'menu_slug'  => 'submenu-1',
+		'render'     => 'wponion_render_demo_page',
+	),
+	'menu_title' => __( 'WPOnion Demo' ),
+	'page_title' => __( 'WPOnion Admin Page Module' ),
+	'menu_slug'  => 'wponion-demo',
+	'render'     => 'wponion_render_demo_page',
+) );
+
+wponion_admin_page( array(
+	'submenu'    => $parent,
+	'menu_title' => __( 'Subemnu 2' ),
+	'page_title' => __( 'Submenu 2' ),
+	'menu_slug'  => 'submenu-2',
+	'render'     => 'wponion_render_demo_page',
+) );
+
+wponion_admin_page( array(
+	'submenu'    => array(
+		array(
+			'menu_title' => __( 'WPO Submenu 1' ),
+			'page_title' => __( 'WPO Submenu 1' ),
+			'menu_slug'  => 'wpo-submenu-1',
+			'render'     => 'wponion_render_demo_page',
+		),
+		array(
+			'menu_title' => __( 'WPO Submenu 2' ),
+			'page_title' => __( 'WPO Submenu 2' ),
+			'menu_slug'  => 'wpo-submenu-1',
+			'render'     => 'wponion_render_demo_page',
+		),
+	),
+	'menu_title' => __( 'WPO Demo 2 ' ),
+	'page_title' => __( 'WPOnion Admin Page Module - 2' ),
+	'menu_slug'  => 'wponion-demo-2',
+	'render'     => 'wponion_render_demo_page',
+) );
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+![](../.gitbook/assets/1541468326-122.gif)
+{% endtab %}
+{% endtabs %}
+
+### WP Sub menus
+
+{% tabs %}
+{% tab title="Dashboard" %}
 {% code-tabs %}
 {% code-tabs-item title="wponion-dashboard-menu.php" %}
 ```php
@@ -146,11 +202,46 @@ wponion_admin_page( array(
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-### Output
-
 ![](../.gitbook/assets/1541384688-137.jpg)
 {% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
 {% endtabs %}
+
+### Multiple Main Menus
+
+{% code-tabs %}
+{% code-tabs-item title="wponion-multiple-main-menus.php" %}
+```php
+function wponion_render_demo_page() {
+	echo 'This is a demo page';
+}
+
+function wponion_render_demo_page2() {
+	echo 'This is a demo page';
+}
+
+wponion_admin_page( array(
+	array(
+		'menu_title' => __( 'WPOnion Demo 1' ),
+		'page_title' => __( 'WPOnion Admin Page Module 1' ),
+		'menu_slug'  => 'wponion-demo-1',
+		'render'     => 'wponion_render_demo_page',
+	),
+	array(
+		'menu_title' => __( 'WPOnion Demo 2' ),
+		'page_title' => __( 'WPOnion Admin Page Module 2' ),
+		'menu_slug'  => 'wponion-demo-2',
+		'render'     => 'wponion_render_demo_page2',
+	),
+) );
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+![](../.gitbook/assets/1541466937-141.jpg)
 
 ## On Load Hook
 
