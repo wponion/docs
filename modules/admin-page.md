@@ -245,6 +245,29 @@ wponion_admin_page( array(
 
 ![](../.gitbook/assets/1541466937-141.jpg)
 
+### Page With Help Tabs
+
+```php
+wponion_admin_page( array(
+   'submenu'      => 'dashboard',
+   'menu_title'   => __( 'WPOnion Demo' ),
+   'page_title'   => __( 'WPOnion Admin Page Module' ),
+   'menu_slug'    => 'wponion-demo',
+   'help_tab'     => array(
+      'Tab 1' => array(
+         'content' => 'Tab 1 content here ...',
+      ),
+      'Tab 2' => array(
+         'content' => 'Tab 1 content here ...',
+      ),
+   ),
+   'help_sidebar' => 'Some Content',
+   'render'       => 'wponion_render_demo_page',
+) );
+```
+
+![](../.gitbook/assets/1541572289-175.gif)
+
 ## On Load Hook
 
 ### Single Callback
