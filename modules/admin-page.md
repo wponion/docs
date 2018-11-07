@@ -9,62 +9,61 @@ description: WPOnion Module used to create custom pages in wp-admin.
 <table>
   <thead>
     <tr>
-      <th style="text-align:center">Key</th>
-      <th style="text-align:center">Default</th>
+      <th style="text-align:left">Key</th>
       <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center"><b>submenu</b>
+      <td style="text-align:left"><b>submenu</b>
       </td>
-      <td style="text-align:center">false</td>
       <td style="text-align:left">set parent menu slug to make this menu as sub menu</td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>menu_title</b>
+      <td style="text-align:left"><b>menu_title</b>
       </td>
-      <td style="text-align:center">false</td>
       <td style="text-align:left">The text to be used for the menu</td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>page_title</b>
+      <td style="text-align:left"><b>page_title</b>
       </td>
-      <td style="text-align:center">false</td>
       <td style="text-align:left">The text to be displayed in the title tags of the page when the menu is
         selected</td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>capability</b>
+      <td style="text-align:left"><b>capability</b>
       </td>
-      <td style="text-align:center">manage_options</td>
-      <td style="text-align:left">The capability required for this menu to be displayed to the user</td>
+      <td style="text-align:left">
+        <p>The capability required for this menu to be displayed to the user</p>
+        <p><code>Default : manage_option</code>
+        </p>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>menu_slug</b>
+      <td style="text-align:left"><b>menu_slug</b>
       </td>
-      <td style="text-align:center">if not provided the it uses <code>page_title / menu_title</code>
+      <td style="text-align:left">
+        <p>The slug name to refer to this menu by. Should be unique for this menu
+          and only include lowercase alphanumeric, dashes, and underscores characters
+          to be compatible with <a href="https://developer.wordpress.org/reference/functions/sanitize_key/">sanitize_key()</a>.</p>
+        <p></p>
+        <p><code>if no value provided then it uses page_title / menu_title</code>
+        </p>
       </td>
-      <td style="text-align:left">The slug name to refer to this menu by. Should be unique for this menu
-        and only include lowercase alphanumeric, dashes, and underscores characters
-        to be compatible with <a href="https://developer.wordpress.org/reference/functions/sanitize_key/">sanitize_key()</a>.</td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>icon</b>
+      <td style="text-align:left"><b>icon</b>
       </td>
-      <td style="text-align:center">false</td>
       <td style="text-align:left">value can be provided only for main menu not for submenu</td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>position</b>
+      <td style="text-align:left"><b>position</b>
       </td>
-      <td style="text-align:center">false</td>
       <td style="text-align:left">The position in the menu order this one should appear</td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>on_load</b>
+      <td style="text-align:left"><b>on_load</b>
       </td>
-      <td style="text-align:center">false</td>
       <td style="text-align:left">
         <p>provided functions / callback will be triggered when page load hook triggers</p>
         <p>uses :<b> load-{page_slug}</b>
@@ -72,21 +71,24 @@ description: WPOnion Module used to create custom pages in wp-admin.
       </td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>assets</b>
+      <td style="text-align:left"><b>assets</b>
       </td>
-      <td style="text-align:center">false</td>
       <td style="text-align:left">use this to load selected assets only on this page if its loading.</td>
     </tr>
     <tr>
-      <td style="text-align:center"><b>callback</b> / <b>render</b>
+      <td style="text-align:left"><b>render</b>
       </td>
-      <td style="text-align:center">false</td>
       <td style="text-align:left">provide a custom function to call when page needs to render</td>
     </tr>
     <tr>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><b>help_tab</b>
+      </td>
+      <td style="text-align:left">An array or a callback to render custom help tabs. please check <a href="help-tabs.md">Help Tabs</a> Module</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>help_sidebar</b>
+      </td>
+      <td style="text-align:left">please check <a href="help-tabs.md">Help Tab</a><a href="help-tabs.md">s</a> Module</td>
     </tr>
   </tbody>
 </table>### Callback Types
