@@ -42,13 +42,13 @@ description: Create hassle free custom help tabs in wp-admin for your custom adm
   </tbody>
 </table>## Core WordPress 
 
-![](../../.gitbook/assets/1541564455-194.gif)
+![](../.gitbook/assets/1541564455-194.gif)
 
 {% embed url="https://gist.github.com/wponion-framework/d444d98d6aacb89dbffb2ca0e2390a5e\#file-core-help-tabs-php" %}
 
 ## Help Tabs With WPOnion Fields
 
-![](../../.gitbook/assets/1541564994-161.gif)
+![](../.gitbook/assets/1541564994-161.gif)
 
 {% embed url="https://gist.github.com/wponion-framework/d444d98d6aacb89dbffb2ca0e2390a5e\#file-with-wponion-fields-php" %}
 

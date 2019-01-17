@@ -80,7 +80,7 @@ description: >-
 
 ### Multiple Columns @ Once
 
-![](../../.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 {% embed url="https://gist.github.com/wponion-framework/c9c91c3c888346c3b69bc92498eca260\#file-admin-columns-multiple-php" %}
 

@@ -1,19 +1,32 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Installation](installation.md)
+* [Installation](installation/README.md)
+  * [Include In Theme](installation/include-in-theme.md)
+  * [Include In plugin](installation/include-in-plugin.md)
 
 ## Modules
 
-* [Admin Modules](modules/admin-modules/README.md)
-  * [Admin Page](modules/admin-modules/admin-page.md)
-  * [Admin Columns](modules/admin-modules/admin-columns.md)
-  * [Admin Notice](modules/admin-modules/admin-notice.md)
-  * [Help Tabs](modules/admin-modules/help-tabs.md)
-
-## Integrations
-
-* [Visual Composer](integrations/visual-composer.md)
+* [Admin Bar](modules/admin-bar.md)
+* [Admin Columns](modules/admin-columns.md)
+* [Admin Notice](modules/admin-notice.md)
+* [Admin Page](modules/admin-page.md)
+* [Bulk Edit](modules/bulk-edit.md)
+* [Customizer](modules/customizer.md)
+* [Dashboard Widget](modules/dashboard-widget.md)
+* [Help Tabs](modules/help-tabs.md)
+* [Media Fields](modules/media-fields.md)
+* [Metabox](modules/metabox.md)
+* [Nav Menu](modules/nav-menu.md)
+* [Network Settings](modules/network-settings.md)
+* [Taxonomy](modules/taxonomy.md)
+* [Settings](modules/settings.md)
+* [User Profile](modules/user-profile.md)
+* [Visual Composer](modules/visual-composer.md)
+* [Quick Edit](modules/quick-edit.md)
+* [Widgets](modules/widgets.md)
+* [WP Pointer](modules/wp-pointer.md)
+* [WooCommerce](modules/woocommerce.md)
 
 ## Fields
 
