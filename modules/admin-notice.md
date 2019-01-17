@@ -1,7 +1,3 @@
----
-description: Simple Module to manage and display WordPress notices in wp-admin pages
----
-
 # Admin Notice
 
 ## Arguments

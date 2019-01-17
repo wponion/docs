@@ -1,7 +1,3 @@
----
-description: WPOnion Module used to create custom pages in wp-admin.
----
-
 # Admin Page
 
 ### Menu Arguments

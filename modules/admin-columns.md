@@ -1,9 +1,3 @@
----
-description: >-
-  This Module can be used to add custom columns to tables that uses
-  WP_List_Table
----
-
 # Admin Columns
 
 ## Arguments

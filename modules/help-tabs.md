@@ -1,7 +1,3 @@
----
-description: Create hassle free custom help tabs in wp-admin for your custom admin pages.
----
-
 # Help Tabs
 
 ## Arguments <a id="module-arguments"></a>
