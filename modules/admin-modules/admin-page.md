@@ -176,9 +176,7 @@ description: WPOnion Module used to create custom pages in wp-admin.
       <td style="text-align:left">Provide a <code>string</code> or a callback function to change text</td>
     </tr>
   </tbody>
-</table>### Subemenu
-
-## Callbacks
+</table>## Callbacks
 
 ### on\_load
 
@@ -208,13 +206,13 @@ Below code will create a new main admin page.
 
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-single-page-php" %}
 
-![](../.gitbook/assets/1541383988-162.jpg)
+![](../../.gitbook/assets/1541383988-162.jpg)
 {% endtab %}
 
 {% tab title="Main Menu & Sub menu" %}
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-admin-page-with-submenus-php" %}
 
-![](../.gitbook/assets/1541468326-122.gif)
+![](../../.gitbook/assets/1541468326-122.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -224,7 +222,7 @@ Below code will create a new main admin page.
 {% tab title="Dashboard" %}
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-dashboard-submenu-php" %}
 
-![](../.gitbook/assets/1541384688-137.jpg)
+![](../../.gitbook/assets/1541384688-137.jpg)
 {% endtab %}
 {% endtabs %}
 
@@ -232,13 +230,13 @@ Below code will create a new main admin page.
 
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-multiple-main-menus-php" %}
 
-![](../.gitbook/assets/1541466937-141.jpg)
+![](../../.gitbook/assets/1541466937-141.jpg)
 
 ### Page With Help Tabs
 
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-page-with-help-tabs-php" %}
 
-![](../.gitbook/assets/1541572289-175.gif)
+![](../../.gitbook/assets/1541572289-175.gif)
 
 
 
