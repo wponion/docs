@@ -7,8 +7,9 @@
 
 * [Admin Modules](modules/admin-modules/README.md)
   * [Admin Page](modules/admin-modules/admin-page.md)
-  * [Help Tabs](modules/admin-modules/help-tabs.md)
   * [Admin Columns](modules/admin-modules/admin-columns.md)
+  * [Admin Notice](modules/admin-modules/admin-notice.md)
+  * [Help Tabs](modules/admin-modules/help-tabs.md)
 
 ## Integrations
 
