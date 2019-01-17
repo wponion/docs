@@ -4,7 +4,7 @@ description: Create hassle free custom help tabs in wp-admin for your custom adm
 
 # Help Tabs
 
-## Module Arguments <a id="module-arguments"></a>
+## Arguments <a id="module-arguments"></a>
 
 <table>
   <thead>
