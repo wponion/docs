@@ -78,32 +78,3 @@ require_once plugin_dir_path(__FILE__) .'/wponion/wponion-framework.php';
 |   |   ├── ...
 ```
 
-## Standard Configure
-
-After installation, you can modify directly config files from wponion/configfolder. this is method same for plugin or theme methods.
-
-```text
-├── wponion
-|   ├── config
-|   |   ├── framework.config.php
-|   |   ├── metabox.config.php
-|   |   ├── taxonomy.config.php
-|   |   ├── shortcode.config.php
-|   |   ├── customize.config.php
-```
-
-## Override Configure
-
-If you do not want to touch framework files, you can use override method. Create a folder `php /wponion-override/` on your theme directory and copy any orginal config file here. Also you can use this method for child theme. create same folder on child theme and modify your copies.
-
-```text
-├── themename
-|   ├── wpsf-framework-override
-|   |   ├── config
-|   |   |   ├── framework.config.php
-|   |   |   ├── metabox.config.php
-|   |   |   ├── taxonomy.config.php
-|   |   |   ├── shortcode.config.php
-|   |   |   ├── customize.config.php
-```
-
