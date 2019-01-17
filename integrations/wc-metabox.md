@@ -1,4 +1,0 @@
-# WooCommerce Product Metabox
-
-
-

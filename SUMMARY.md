@@ -2,62 +2,24 @@
 
 * [Welcome](README.md)
 * [Installation](installation.md)
-* [Fields](fields/README.md)
-  * [UI Fields](fields/ui-fields/README.md)
-    * [Notice](fields/ui-fields/notice.md)
-    * [Heading](fields/ui-fields/heading.md)
-    * [Sub Heading](fields/ui-fields/sub-heading.md)
-    * [Content](fields/ui-fields/content.md)
-    * [Jambo Content](fields/ui-fields/jambo-content.md)
-    * [Card](fields/ui-fields/card.md)
-  * [Core Fields](fields/core-fields/README.md)
-    * [Text](fields/core-fields/text.md)
-    * [Textarea](fields/core-fields/textarea.md)
-    * [Checkbox](fields/core-fields/checkbox.md)
-    * [Radio](fields/core-fields/radio.md)
-    * [Select](fields/core-fields/select.md)
-    * [Icon Picker](fields/core-fields/icon-picker.md)
-    * [Font Picker](fields/core-fields/font-picker.md)
-    * [Image Select](fields/core-fields/image-select.md)
-    * [Fieldset](fields/core-fields/fieldset.md)
-    * [Accordion](fields/core-fields/accordion.md)
-    * [Group](fields/core-fields/group.md)
-    * [WP Links](fields/core-fields/wp-links.md)
-    * [Image Picker](fields/core-fields/image-picker.md)
-    * [Gallery](fields/core-fields/gallery.md)
-    * [Switcher](fields/core-fields/switcher.md)
-    * [Color Picker](fields/core-fields/color-picker.md)
-    * [Date Picker](fields/core-fields/date-picker.md)
-    * [Time Picker](fields/core-fields/time-picker.md)
-    * [Color Palette](fields/core-fields/color-palette.md)
-  * [Field Template](fields/field-template.md)
-* [Value API](value-api.md)
-* [Change Log](change-log.md)
-* [F.A.Q](f.a.q.md)
-* [License & Credits](license-and-credits.md)
 
 ## Modules
 
-* [Settings](modules-1/settings.md)
-* [Admin Page](modules-1/admin-page.md)
-* [Help Tabs](modules-1/help-tabs.md)
-* [Quick / Bulk Edit](modules-1/quick-bulk-edit.md)
-* [Customizer](modules-1/customizer/README.md)
-  * [Transport](modules-1/customizer/transport.md)
-  * [Post Message](modules-1/customizer/post-message.md)
-  * [CSS](modules-1/customizer/css.md)
-  * [Partial Refresh](modules-1/customizer/partial-refresh.md)
-* [Taxonomy](modules-1/taxonomy.md)
-* [Metabox](modules-1/metabox.md)
-* [User Profile](modules-1/user-profile.md)
-* [Widgets](modules-1/widgets.md)
-* [Shortcode Generator](modules-1/shortcode-generator.md)
-* [Gutenberg](modules-1/gutenberg.md)
-* [Dashboard Widgets](modules-1/dashboard-widgets.md)
+* [Admin Page](modules/admin-page.md)
+* [Help Tabs](modules/help-tabs.md)
 
 ## Integrations
 
-* [WooCommerce Product Metabox](integrations/wc-metabox.md)
 * [Visual Composer](integrations/visual-composer.md)
-* [Untitled](integrations/untitled.md)
+
+## Fields
+
+* [Fields](fields/fields-3/README.md)
+  * [Field Template](fields/fields-3/field-template.md)
+
+## Others
+
+* [F.A.Q](others/f.a.q.md)
+* [License & Credits](others/license-and-credits.md)
+* [Change Log](others/change-log.md)
 

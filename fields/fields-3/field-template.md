@@ -1,4 +1,4 @@
-# Text
+# Field Template
 
 {% hint style="info" %}
 Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) For more field options.
@@ -8,33 +8,28 @@ Please Do Refer [**Common Arguments**](https://wponion.gitbook.io/docs/fields) F
 
 | **Option Name** | **Default Value** | **Description** |
 | :--- | :--- | :--- |
-|  inputmask |  `false` |  |
-|  prefix | `false` |  |
-|  surfix | `false` |  |
+|  |  |  |
+|  |  |  |
 
 ### Example Code & Output
 
 {% tabs %}
-{% tab title="Field Array" %}
-```php
-array(
-   'id'    => 'field_id_text',
-   'title' => 'Field Title',
-   'type'  => 'text',
-);
-```
-{% endtab %}
-
-{% tab title="Masking Array" %}
+{% tab title="First Tab" %}
 ## Input With Masking
 
 ```php
 array(
-   'id'    => 'field_id_text',
+   'id'    => 'field_id',
    'title' => 'Field Title',
    'type'  => 'text',
 );
 ```
+
+![](../../.gitbook/assets/wponion-gif-logo.gif)
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
 {% endtab %}
 {% endtabs %}
 
@@ -51,7 +46,9 @@ array(
  * Please Do Replace $instance with the exact module's instance variable
  */
 $wponion_values = $instance->values();
-$field_id_value = $wponion_values->get('{field_id_text}');
+$field_id_value = $wponion_values->get('{field_id}');
 echo $field_id_value->get(); // Returns Fields Value exactly as saved.
 ```
+
+
 
