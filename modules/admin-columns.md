@@ -18,7 +18,7 @@
       </td>
       <td style="text-align:left">
         <p><code>array()</code> or <code>string</code> of a post type slug.</p>
-        <p>if provided & none of them matches current
+        <p>if provided &amp; none of them matches current
           <br />post type then column will not be rendered</p>
       </td>
     </tr>

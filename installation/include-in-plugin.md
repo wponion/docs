@@ -23,6 +23,6 @@
  * wponion
  * A Lightweight and easy-to-use WordPress Options Framework
  */
-require_once plugin_dir_path(__FILE__) .'/wponion/wponion-framework.php';
+require_once plugin_dir_path(__FILE__) .'/wponion/wponion.php';
 ```
 

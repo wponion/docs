@@ -24,9 +24,9 @@
  * WPSFramework
  * A Lightweight and easy-to-use WordPress Options Framework
  */
-require_once get_template_directory_uri() .'/wpsf-framework/wpsf-framework.php';
+require_once get_template_directory_uri() .'/wponion/wponion.php';
 ​
 // -( or )-
-// require_once get_template_directory_uri() .'/subfolder/wpsf-framework/wpsf-framework.php';
+// require_once get_template_directory_uri() .'/subfolder/wponion/wponion.php';
 ```
 
