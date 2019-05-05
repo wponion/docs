@@ -1,5 +1,7 @@
 # Welcome
 
+
+
 ![](.gitbook/assets/banner-1544x500.jpg)
 
 This site aims to be a comprehensive guide to WPOnion Framework. We’ll cover topics such as installation, creating custom meta boxes and fields, get meta value and give you some tutorials on using the plugins to speed up your development workflow.
@@ -11,7 +13,7 @@ Documentation is still **in-progress**. I'm constantly working on the documentat
 By the way you can click to edit buttons and help me in improving documentation.
 {% endhint %}
 
-Because a good documentation helps everyone who uses **wponion-framework** and eases getting started with it. It's also useful for wider adoption of wponion framework. Many developers will just skip softwares that have no extensive documentations or that doesn't seem to provide quick solutions for their problems.
+Because a good documentation helps everyone who uses **wponion** and eases getting started with it. It's also useful for wider adoption of wponion framework. Many developers will just skip softwares that have no extensive documentations or that doesn't seem to provide quick solutions for their problems.
 
 ## So, What is WPOnion exactly?
 
