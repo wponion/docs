@@ -79,6 +79,7 @@
 ## Others
 
 * [F.A.Q](others/f.a.q.md)
-* [License & Credits](others/license-and-credits.md)
+* [License](others/license.md)
+* [Credits](others/credits.md)
 * [Change Log](others/change-log.md)
 
