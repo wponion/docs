@@ -1,15 +1,18 @@
+---
+description: WPOnion is built using awesome libraries found in the community.
+---
+
 # Credits
 
-### CSS Library
+## CSS Library
 
 | Library Name | License |
 | :--- | :--- |
 | [Boostrap](http://getbootstrap.com/) | MIT |
 | [CSS-Checkbox-Library](https://github.com/hunzaboy/CSS-Checkbox-Library) | MIT |
 | [FlexBoxGrid2](https://github.com/evgenyrodionov/flexboxgrid2/) | Apache License V2 |
-|  |  |
 
-### JAVASCRIPT Library
+## Javascript Library
 
 | Library Name | License |
 | :--- | :--- |
@@ -27,7 +30,7 @@
 | [flatpickr](https://flatpickr.js.org/) | MIT |
 | [inputmask](https://github.com/RobinHerbots/Inputmask) | MIT |
 
-### PHP Library
+## PHP Library
 
 | Library Name | License |
 | :--- | :--- |
