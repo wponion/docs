@@ -82,4 +82,5 @@
 * [License](others/license.md)
 * [Credits](others/credits.md)
 * [Change Log](others/change-log.md)
+* [Privacy Policy](others/privacy-policy.md)
 
