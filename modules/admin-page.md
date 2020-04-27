@@ -177,7 +177,7 @@
 ### on\_load
 
 {% tabs %}
-{% tab title="Sinle Callback" %}
+{% tab title="Single Callback" %}
 {% embed url="https://gist.github.com/wponion-framework/cb9b0e46d3ff7323a0cbdc86a41536fc\#file-onload-single-callback-php" %}
 {% endtab %}
 
