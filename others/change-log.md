@@ -5,6 +5,185 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [1.4.5.3] - 22/04/2020
+
+## Fixed
+*  Bootstrap Style issue with Porto Theme #221 
+
+## Changed
+* Bump [@wordpress/hooks] from `2.7.0` to `2.8.0`
+* Bump [WPOnion Icons] from `1.0.0' to `1.0.3`
+* Bump [tippy.js] from `6.1.1` to `6.2.0`
+* Bump [@wponion/flexboxgrid2 ]from `1.0.1` to `1.0.2`
+* Bump [@popperjs/core] from `2.3.2` to `2.3.3`
+* Moved Alerts CSS From normal to wpo- prefixed
+* Moved Jumbotron css from normal to wpo- prefixed
+* Moved table css from normal to wpo- prefixed
+* Combined Multiple media query for the same style into 1.
+
+## Removed
+* `.wponion-element` prefix for each element's style remvoed to reduce css file size
+* `wponion-plugins.css` file combined to `wponion-base.css` and removed.
+
+# [1.4.5.2] - 14/04/2020
+
+## Changed
+* Improved Settings Page / Metabox Menu Navtion Easy.
+* Improved PHP Documentation.
+* Bump [@popperjs/core] from `2.2.1` to `2.3.2`
+* Bump [sweetalert2] from `9.10.9` to `9.10.12`
+
+## Fixed
+* `select2` CSS Bug Fixed.
+* `query_args` in `\WPO\Container` callback fixed.
+
+## Removed
+* Deleted All `\WPO\Field`  Get method's comments.
+
+# [1.4.5.1] - 06/04/2020
+## Changed
+* Bump [sweetalert2] from `9.10.8` to `9.10.9`
+* Bump [popper.js] from `2.1.1` to `2.2.1`
+* Bump [WPOnion Icons] from `1.0.1` to `1.0.2`
+* Bump [tippy.js] from `6.1.0` to `6.1.1`
+
+# [1.4.5] - 02/04/2020
+
+## Fixed
+* Multiple Ajax Request when using CTRL+S
+* Warning When Direct CSS Added `$field->parse('color:red');` fixed.
+* Updated WPOnion to use `wp_nav_menu_item_custom_fields` hook instead of custom walker if wordpress version is 5.4 =>
+
+## Changed
+* Bump [sweetalert2] from `9.10.7` to `9.10.8`
+* Bump [WPOnion Icons] from `1.0.0' to `1.0.1`
+* **button** Field type changed to UI
+* **modal** Field type changed to UI
+* **wp_list_table** Field type changed to UI
+
+# [1.4.4] - 30/03/2020
+## Added
+* Option to set custom css style per field `$field->css('font-size:12px;')`
+
+## Fixed
+* Responsive Field styles.
+
+## Changed
+* Column Layout changed for all field types
+* Bump [sweetalert2] from `9.10.6` to `9.10.7`
+
+# [1.4.3] - 26/03/2020
+## Added
+* WPOnion Icon Library
+* Bootstrap Style WP-List Table
+* Added Markdown for tooltips.
+
+## Changed
+*Bump [sweetalert2] from `9.10.5` to `9.10.6`
+
+# [1.4.2] - 24/03/2020
+## Added
+* Array Access Trait For `ArrayAccess`
+* Array Iterator Trait For `Iterator`
+* New Field Dependency Plugin [WPOnion_DependOn]
+* Fieldset & Accordion dependency support
+* Shortcut Key Press (`CTRL + S`) to save settings
+
+## Fixed
+* TAB Field CSS Fixes.
+
+## Changed
+*Bump [sweetalert2] from `9.10.3` to `9.10.5`
+
+## Removed
+* Removed Group Field dependency support due to nested issues
+
+# [1.4.1] - 20/03/2020
+## Fixed
+* Removed `ob_flush();` because of nested output buffering issue
+* Field `button_set` now works well with `wpo-btn-{status}` css class
+* Fixed Some Field's CSS Issue
+
+## Changed
+* Bump [popper.js] from `1.16.0` to `2.1.1`
+* Bump [@wordpress/hooks] from `2.6.0` to `2.7.0`
+* Bump [sweetalert2] from `9.4.3` to `9.10.3`
+* Bump [tippy.js] from `5.1.2` to `6.1.0`
+* Bump [acorn] from `5.7.3` to `5.7.4`
+* WPOnion Core Assets CDN Version To `1.3.9`
+* Migrated WPOnion To New Icon Set.
+
+## Added
+* Brand New [WPOnion Icons]
+
+## Removed
+* Old WPOnion Icon Fonts.
+
+# [1.4.0] - 04/12/2019
+
+## Fixed
+* Fixed Issue [#161](https://github.com/wponion/wponion/issues/161)
+* Fixed Issue [#162](https://github.com/wponion/wponion/issues/162)
+* Javascript Validation issue in nested fields like (Fieldset / Accordion / Group)
+
+## Changed
+* Bump [tippy.js] from `5.1.1` to `5.1.2`
+* Bump [bootstrap] from `4.3.1` to `4.4.1`
+* Bump [sweetalert2] from `9.4.0` to `9.4.3`
+* Updated Sweetalert2 Config.
+
+# [1.3.9] - 25/11/2019
+## Added
+* `__toString` Function to `\WPOnion\DB\Option` Class.
+* Split Save Feature Added
+
+## Fixed
+* Tab Field CSS Flicker Issue
+* Multiple Custom Metabox in same page Render Issue
+
+## Changed
+* renamed `wpo_taxonomy` to `wpo_term_meta`
+* renamed function `wponion_fields_all_ids_defaults` to `wponion_extract_all_fields_ids_defaults`
+* Bump [sweetalert2] from `8.18.6` to `9.4.0`
+* Bump [tippy.js] from `5.1.0` to `5.1.1`
+* WPOnion Core Assets CDN Version To `1.3.8`
+* Updated Fontawesome icons list
+
+## Removed
+* Code Clean Up
+
+
+# [1.3.8] - 26/10/2019
+## Added
+* Autoloader With Pre Generated Classmpas
+
+## Changed
+* Bump [tippy.js] from `4.3.5` to `5.0.1`
+* Bump [mustangostang/spyc] from `0.6.2` to `0.6.3`
+* Bump [varunsridharan/php-autoloader] from `2.4` to `2.6`
+* Bump [sweetalert2] from `8.17.6` to `8.18.0` 
+* Bump [popper.js] from `1.15.0` to `1.16.0`
+
+## Removed
+* Removed All Button in Dimensions field.
+
+
+# [1.3.7] - 26/09/2019
+## Added
+* `wponion_ajax_shutdown_error` New action in wponion ajax request.
+* `wponion_ajax_shutdown` New action in wponion ajax request.
+* `wponion_ajax_shutdown_success` New action in wponion ajax request.
+
+## Fixed
+* Ajax Assets Loading [#105](https://github.com/wponion/wponion/issues/105)
+* Settings Page Menu Loading issue after saving settings
+
+## Changed
+* Bump [sweetalert2] from `8.17.1` to `8.17.6`
+
+## Removed
+* WPOnion Removed From WordPress.org Refer : [#106](https://github.com/wponion/wponion/issues/106)
+
 # [1.3.6] - 22/08/2019
 ## Added
 * Label Support for Switcher Field
@@ -15,6 +194,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * WPOnion's Custom Icon Pack
 * JAVASCRIPT Hook : `wponion_register_after_core_fields`
 * JAVASCRIPT Hook : `wponion_register_after_core_themes`
+* Field Badge Option ![WPOnion Field Badge Option](https://s3.wponion.com/changelog/1567560560-117.jpg)
+* Multiple Field Description ![WPOnion Multiple Field Description](https://s3.wponion.com/changelog/1567574576-170.jpg)
 
 ## Fixed
 * Color Picker Field Saving & Showing Value
@@ -27,11 +208,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Typogryphay Field Fully Redeveloped
 * Option To Disbale Variants in FontPicker
 * Option To have Empty Select in Select field `empty_option => true`
-* Bump [@wordpress/hooks] from `2.4.0` to `2.5.0`
-* Bump [sweetalert2] from `8.14.0` to `8.16.0`
-* Bump [tippy.js] from `4.3.4` to `4.3.5`
-* Bump [easy-gulp-tasker] from `1.0.10` to `1.0.12`
-* Bump [wordpress-js-ports] from `1.0.6` to `1.0.8`
+* Bump [@wordpress/hooks] from `2.4.0` to `2.6.0`
+* Bump [sweetalert2] from `8.14.0` to `8.17.1`
+* Bump [tippy.js] from `4.3.4` to `4.35`
+* Bump [easy-gulp-tasker] from `1.0.10` to `1.0.15`
+* Bump [wordpress-js-ports] from `1.0.6` to `1.0.9`
 
 # [1.3.5] - 29/07/2019
 ## Added
@@ -634,7 +815,22 @@ Migrated From WordPress VIP Coding Standards To WordPress Core Coding Standards.
 8. WP Module   -  Settings Page
 
 ---
-
+[1.4.9]: https://github.com/wponion/wponion/releases/tag/1.4.9
+[1.4.8]: https://github.com/wponion/wponion/releases/tag/1.4.8
+[1.4.7]: https://github.com/wponion/wponion/releases/tag/1.4.7
+[1.4.6]: https://github.com/wponion/wponion/releases/tag/1.4.6
+[1.4.5.3]: https://github.com/wponion/wponion/releases/tag/1.4.5.3
+[1.4.5.2]: https://github.com/wponion/wponion/releases/tag/1.4.5.2
+[1.4.5.1]: https://github.com/wponion/wponion/releases/tag/1.4.5.1
+[1.4.5]: https://github.com/wponion/wponion/releases/tag/1.4.5
+[1.4.4]: https://github.com/wponion/wponion/releases/tag/1.4.4
+[1.4.3]: https://github.com/wponion/wponion/releases/tag/1.4.3
+[1.4.2]: https://github.com/wponion/wponion/releases/tag/1.4.2
+[1.4.1]: https://github.com/wponion/wponion/releases/tag/1.4.1
+[1.4.0]: https://github.com/wponion/wponion/releases/tag/1.4.0
+[1.3.9]: https://github.com/wponion/wponion/releases/tag/1.3.9
+[1.3.8]: https://github.com/wponion/wponion/releases/tag/1.3.8
+[1.3.7]: https://github.com/wponion/wponion/releases/tag/1.3.7
 [1.3.6]: https://github.com/wponion/wponion/releases/tag/1.3.6
 [1.3.5]: https://github.com/wponion/wponion/releases/tag/1.3.5
 [1.3.4]: https://github.com/wponion/wponion/releases/tag/1.3.4
@@ -687,3 +883,11 @@ Migrated From WordPress VIP Coding Standards To WordPress Core Coding Standards.
 [IcoFont]: https://icofont.com/
 [Material Design Icons]: https://materialdesignicons.com/
 [@simonwep/pickr]: https://github.com/Simonwep/pickr
+[mustangostang/spyc]: https://github.com/mustangostang/spyc
+[varunsridharan/php-autoloader]: https://github.com/varunsridharan/php-autoloader
+[popper.js]: https://popper.js.org
+[bootstrap]: https://getbootstrap.com
+[acrom]:https://www.npmjs.com/package/acorn
+[WPOnion_DependOn Demo]:https://dependson.wponion.com
+[WPOnion_DependOn]:https://github.com/wponion/dependsOn
+[WPOnion Icons]:https://icons.wponion.com
