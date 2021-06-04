@@ -1,2 +1,0 @@
-# Jambo Content
-
