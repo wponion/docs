@@ -123,6 +123,7 @@
   * [Bricks Builder](wordpress-framework-integrations/page-builders/bricks-builder.md)
   * [Elementor](wordpress-framework-integrations/page-builders/elementor.md)
   * [WP Page Builder](wordpress-framework-integrations/page-builders/wp-page-builder.md)
+* [Themes](wordpress-framework-integrations/themes.md)
 
 ## Routines & Logic <a id="routines-logic"></a>
 
