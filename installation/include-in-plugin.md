@@ -6,7 +6,7 @@
 * Take a look for config files from `your-plugin/wponion/config` folder
 * Read for about configuration
 
-> ### Folder Structure
+> ## Folder Structure
 
 ```text
 ├── wp-content

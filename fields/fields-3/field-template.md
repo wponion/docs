@@ -33,5 +33,3 @@ array(
 {% endtab %}
 {% endtabs %}
 
-
-

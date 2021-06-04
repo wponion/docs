@@ -38,9 +38,7 @@
     </tr>
   </thead>
   <tbody></tbody>
-</table>| **icon** | `none` | The URL to the icon to be used for this menu. \* `base64-encoded` SVG using a data URI, which will be colored to match the color scheme. `data:image/svg+xml;base64` \* Name of a Dashicons helper class to use a font icon e.g.`dashicons-chart-pie` \* Pass `none` to leave `div.wp-menu-image` empty so an icon can be added via CSS. |
-| :--- | :--- | :--- |
-
+</table>
 
 | **position** | `null` | The position in the menu order this one should appear |
 | :--- | :--- | :--- |
@@ -70,7 +68,9 @@
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left"><b>submenu</b>
@@ -88,7 +88,9 @@
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left"><b>on_load</b>
@@ -103,9 +105,7 @@
     </tr>
   </thead>
   <tbody></tbody>
-</table>| **assets** | `false` | Pass an array or string of Callback Functions / style or script handles to trigger when page loaded to **enqueue** assets |
-| :--- | :--- | :--- |
-
+</table>
 
 | **hook\_priority** | `10` | **priority** argument to be passed for `add_action` |
 | :--- | :--- | :--- |
@@ -131,53 +131,19 @@
 
 {% tabs %}
 
-
-
 {% embed url="https://gist.github.com/wponion-framework/cb9b0e46d3ff7323a0cbdc86a41536fc\#file-onload-single-callback-php" caption="" %}
-
-
 
 {% embed url="https://gist.github.com/wponion-framework/cb9b0e46d3ff7323a0cbdc86a41536fc\#file-onload-multiple-callback-php" caption="" %}
 
-### assets
-
 {% embed url="https://gist.github.com/wponion-framework/cb9b0e46d3ff7323a0cbdc86a41536fc\#file-assets-loading-php" caption="" %}
-
-## Demo
-
-### Menu & Sub menu's
-
-{% tabs %}
-
-
-
-Below code will create a new main admin page.
 
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-single-page-php" caption="" %}
 
-![](../.gitbook/assets/1541383988-162.jpg)
-
-
-
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-admin-page-with-submenus-php" caption="" %}
-
-![](../.gitbook/assets/1541468326-122.gif)
-
-### WP Sub menus
-
-{% tabs %}
 
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-dashboard-submenu-php" caption="" %}
 
-![](../.gitbook/assets/1541384688-137.jpg)
-
-### Multiple Main Menus
-
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-multiple-main-menus-php" caption="" %}
-
-![](../.gitbook/assets/1541466937-141.jpg)
-
-### Page With Help Tabs
 
 {% embed url="https://gist.github.com/wponion-framework/f48d58d061c5ab347116012e0b6569e2\#file-page-with-help-tabs-php" caption="" %}
 

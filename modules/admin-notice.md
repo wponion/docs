@@ -16,7 +16,7 @@
 | **dismissible** | `true` | if set to true then it appends a clone button to notice |
 
 {% hint style="info" %}
-**Note :**  For Each Notice Type WPOnion Builtin Function To Render It Quickly
+**Note :** For Each Notice Type WPOnion Builtin Function To Render It Quickly
 {% endhint %}
 
 * Success : `wponion_success_admin_notice`
@@ -31,37 +31,15 @@
 
 ![](https://vsp.ams3.cdn.digitaloceanspaces.com/sshots/i/2019/Jan/17/1547710698-169.jpg)
 
-{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-basic-config-php" %}
+{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-basic-config-php" caption="" %}
 
-### Success
+{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-success-php" caption="" %}
 
-![](https://vsp.ams3.cdn.digitaloceanspaces.com/sshots/i/2019/Jan/17/1547709941-18.jpg)
+{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-info-php" caption="" %}
 
-{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-success-php" %}
+{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-warning-php" caption="" %}
 
-### Info
+{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-error-php" caption="" %}
 
-![](https://vsp.ams3.cdn.digitaloceanspaces.com/sshots/i/2019/Jan/17/1547710026-128.jpg)
-
-{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-info-php" %}
-
-### Warning
-
-![](https://vsp.ams3.cdn.digitaloceanspaces.com/sshots/i/2019/Jan/17/1547710117-18.jpg)
-
-{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-warning-php" %}
-
-### Error
-
-![](https://vsp.ams3.cdn.digitaloceanspaces.com/sshots/i/2019/Jan/17/1547710171-197.jpg)
-
-{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-error-php" %}
-
-### Upgrade
-
-![](https://vsp.ams3.cdn.digitaloceanspaces.com/sshots/i/2019/Jan/17/1547710292-131.jpg)
-
-{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-upgrade-php" %}
-
-
+{% embed url="https://gist.github.com/wponion-framework/44c457ba6c9cd64a5861a4eb7149e3b1\#file-upgrade-php" caption="" %}
 

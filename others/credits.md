@@ -1,5 +1,5 @@
 ---
-description: WPOnion is built using awesome libraries found in the community.
+description: WPOnion is built using awesome libraries found in the open source community.
 ---
 
 # Credits
