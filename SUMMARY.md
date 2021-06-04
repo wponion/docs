@@ -119,8 +119,10 @@
   * [My Account Fields](wordpress-framework-integrations/woocommerce/my-account-fields.md)
 * [Page Builders](wordpress-framework-integrations/page-builders/README.md)
   * [Beaver Builder](wordpress-framework-integrations/page-builders/beaver-builder.md)
-  * [Oxygen Builder](wordpress-framework-integrations/page-builders/oxygen-builder.md)
+  * [Oxygen](wordpress-framework-integrations/page-builders/oxygen-builder.md)
+  * [Bricks Builder](wordpress-framework-integrations/page-builders/bricks-builder.md)
   * [Elementor](wordpress-framework-integrations/page-builders/elementor.md)
+  * [WP Page Builder](wordpress-framework-integrations/page-builders/wp-page-builder.md)
 
 ## Routines & Logic <a id="routines-logic"></a>
 
